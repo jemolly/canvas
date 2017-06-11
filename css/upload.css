@@ -1,0 +1,22 @@
+canvas {
+	width: 300px;
+	border: 1px solid green;
+}
+
+input {
+	font-size: 14px;
+}
+
+.back {
+	border: 1px solid #333;
+	padding: 5px 5px;
+    font-family: Verdana;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	background: #BECAC6;
+}
+
+a:hover {
+    background-color: #00BE7F;
+}

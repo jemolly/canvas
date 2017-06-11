@@ -1,0 +1,36 @@
+.main_p {
+	text-align: center;
+}
+
+a:hover {
+    background-color: #00BE7F;
+}
+
+.button {
+	display:inline-block;
+	border: 1px solid #333;
+	padding: 25px 45px;
+	background-color: #00FFA9;
+    font-family: Verdana;
+	font-size: 26px;
+	font-style: italic;
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+}
+
+.back {
+	border: 1px solid #333;
+	padding: 5px 5px;
+    font-family: Verdana;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	background: #BECAC6;
+}
+
+canvas {
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+}
