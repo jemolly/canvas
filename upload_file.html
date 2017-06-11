@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<head>
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script> 
+<script src="js/upload.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/upload.css">
+</head>
+<body>
+<header>
+<h2>
+Change to grayscale
+</h2>
+<p><a class="back" href="index.html">Back to main page</a></p>
+</header>
+<canvas id="can">
+</canvas>
+<canvas id="can2">
+</canvas>
+<p>
+<input type="file" accept="image/*" id="file" onchange="upload()">
+</p>
+<p>
+<input type="button" id="but" value="Change to GrayScale" onclick="makeGray()">
+</p>
+</body>
